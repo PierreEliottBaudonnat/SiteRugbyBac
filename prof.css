@@ -1,0 +1,80 @@
+@font-face{
+	font-family: "Lund";
+    src: url("fonts/Lund.eot") format("eot"),
+         url("fonts/Lund.woff") format("woff"),
+         url("fonts/Lund.ttf") format("truetype"),
+         url("fonts/Lund.svg") format("svg");
+}
+
+@font-face{
+	font-family: "Traveling Typewriter";
+    src: url("fonts/TravelingTypewriter.eot") format("eot"),
+         url("fonts/TravelingTypewriter.woff") format("woff"),
+         url("fonts/TravelingTypewriter.ttf") format("truetype"),
+         url("fonts/TravelingTypewriter.svg") format("svg");
+}
+
+body 
+{
+   background: url("Images/anc_rugby.jpg") fixed no-repeat top, url("Images/noir.jpg") fixed repeat;
+   color: white;
+}
+#bloc_page
+{
+    width: 1000px;
+    margin: auto;
+}
+header h1 
+{
+    font-family: Lund;
+	color: white;
+	font-size: 50px;
+	margin-left: 100px;
+	margin-top: 50px;
+}
+
+section
+{
+	width: 800px;
+	margin-top: 110px;
+	margin-bottom: 40px;
+}
+section h1
+{
+	width: 800px;
+	margin-top: 60px;
+	margin-bottom: 40px;
+	font-family: Traveling Typewriter;
+	color: white;
+	font-size: 30px;
+	text-align: left;
+}
+}
+article h1
+{
+	font-family: Lund;
+	color: white;
+	font-size: 50px;
+	margin-top: 20px;
+	margin-left: 90px;
+}
+
+article
+{
+    font-family: Arial;
+	color: white;
+	width: 520px;
+	font-size: 20px;
+	margin-right: 15px;
+	margin-left: 90px;
+	margin-bottom: 50px;
+}
+#vieux img
+{
+	border-radius: 5px;
+	box-shadow: 4px 4px 4px white;
+}
+#vieux
+{
+    text-align: center;
+}

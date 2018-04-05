@@ -1,0 +1,123 @@
+@font-face{
+	font-family: "Lund";
+    src: url("fonts/Lund.eot") format("eot"),
+         url("fonts/Lund.woff") format("woff"),
+         url("fonts/Lund.ttf") format("truetype"),
+         url("fonts/Lund.svg") format("svg");
+}
+
+body 
+{
+   background: url("Images/ecran_ang_7.jpg") fixed no-repeat top, url("Images/noir.jpg") fixed repeat;
+   color: white;
+}
+
+#bloc_page
+{
+    width: 1000px;
+    margin: auto;
+}
+
+#equipe_ang_7
+{
+    margin-top: 90px;
+    margin-left: 90px;
+    margin-right: 90px;
+    height: 477px;
+    width: 850px;
+    border-radius: 5px;
+    background: url("Images/banniere_ang_7.jpg") no-repeat center;
+    position: relative;
+    box-shadow: 4px 4px 4px;
+    margin-bottom: 5px;
+}
+
+header h1 
+{
+    font-family: Lund;
+	color: black;
+	font-size: 50px;
+	margin-left: 150px;
+}
+
+section
+{
+	width: 800px;
+	margin-top: 80px;
+	margin-bottom: 40px;
+}
+section h1
+{
+	font-family: Lund;
+	color: white;
+	font-size: 30px;
+	margin-top: 20px;
+	margin-left: 0px;
+}
+
+article
+{
+    font-family: Arial;
+	color: white;
+	width: 800px;
+	font-size: 20px;
+	margin-right: 15px;
+	margin-left: 90px;
+	margin-bottom: 50px;
+}
+
+article
+{
+    font-family: Arial;
+	color: white;
+	width: 800px;
+	font-size: 20px;
+	margin-right: 15px;
+	margin-left: 90px;
+	margin-bottom: 50px;
+}
+table
+{
+    border-collapse: collapse;
+	margin-left: 190px;
+}
+td, th
+{
+    border: 1px solid white;
+	text-align: justify;
+}
+#norton
+{
+    text-align: center;
+}
+.boutonretour {
+	background-color: rgb(255,234,223);
+	border-radius: 3px;
+	box-shadow: 3px 3px 3px rgb(255,72,72) inset;
+	font-family: arial;
+	color: black; 
+	display: inline-block;
+    height: 25px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 3px 8px 0px 8px;
+    text-decoration: none;
+}
+
+.boutonretour img {
+    border: 0;
+}
+
+#flecheblanche2 {
+   position: relative;
+   top: 2px;
+   left: -5px;  
+}
+
+nav a:hover
+{
+    color: rgb(255,72,72);
+}

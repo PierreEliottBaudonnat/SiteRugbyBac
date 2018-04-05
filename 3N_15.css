@@ -1,0 +1,87 @@
+@font-face{
+	font-family: "Lund";
+    src: url("fonts/Lund.eot") format("eot"),
+         url("fonts/Lund.woff") format("woff"),
+         url("fonts/Lund.ttf") format("truetype"),
+         url("fonts/Lund.svg") format("svg");
+}
+
+@font-face{
+	font-family: "Traveling Typewriter";
+    src: url("fonts/TravelingTypewriter.eot") format("eot"),
+         url("fonts/TravelingTypewriter.woff") format("woff"),
+         url("fonts/TravelingTypewriter.ttf") format("truetype"),
+         url("fonts/TravelingTypewriter.svg") format("svg");
+}
+
+body 
+{
+   background: url("Images/3nations.jpg") scroll no-repeat top, url("Images/ecran_3n_15.jpg") fixed no-repeat;
+   color: white;
+}
+#bloc_page
+{
+    width: 1000px;
+    margin: auto;
+}
+header h1 
+{
+    font-family: Lund;
+	color: white;
+	font-size: 50px;
+	margin-left: 225px;
+	margin-top: 70px;
+	text-shadow: 2px 2px 2px grey;
+}
+
+section
+{
+	width: 800px;
+	margin-top: 110px;
+	margin-bottom: 40px;
+}
+
+section h1 {
+    font-family: Lund;
+	color: white;
+	font-size: 30px;
+	margin-left: 90px;
+	margin-top: 40px;
+}
+
+
+article
+{
+    font-family: Arial;
+	color: white;
+	width: 720px;
+	font-size: 20px;
+	margin-right: 15px;
+	margin-left: 90px;
+	margin-bottom: 50px;
+}
+#Tri_nations img
+{
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px 2px grey;
+}
+
+#Tri_nations
+{
+    text-align: center;
+}
+
+p{
+    font-family: Traveling Typewriter;
+	text-align: justify;
+	margin-left: 50px;
+	font-size: 16px;
+}
+
+article li {
+    font-family: Traveling Typewriter;
+}
+
+h2 {
+    font-family: Traveling Typewriter;
+}

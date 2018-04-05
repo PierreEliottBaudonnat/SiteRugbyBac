@@ -1,0 +1,72 @@
+#bloc_page
+{
+    width: 1000px;
+    margin: auto;
+}
+
+body 
+{
+   background: url("Images/ecran_aus_15.jpg") fixed no-repeat top, url("Images/noir.jpg") fixed repeat;
+   color: white;
+}
+
+header h1 
+{  text-align: center;
+   color: yellow;
+   font-size: 45px;
+   text-shadow: 2px 2px 2px green;;
+}
+
+section
+{
+	width: 800px;
+	margin-top: 80px;
+	margin-bottom: 40px;
+}
+section h1
+{
+	font-size: 25px;
+	margin-top: 20px;
+	margin-left: 0px;
+	text-decoration: underline;
+	color: yellow;
+    text-shadow: 2px 2px 2px green;	
+}
+
+article
+{
+    font-family: Arial;
+	color: white;
+	width: 800px;
+	font-size: 20px;
+	margin-right: 15px;
+	margin-left: 90px;
+	margin-bottom: 50px;
+}
+table
+{
+    border-collapse: collapse;
+	margin-left: 190px;
+}
+td, th
+{
+    border: 1px solid white;
+	text-align: justify;
+}
+
+#cummins img
+{
+	border-radius: 2px;
+	border: 2px solid black;
+}
+
+#cummins
+{
+    text-align: center;
+}
+
+
+p{
+    color: yellow;
+}
+

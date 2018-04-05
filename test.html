@@ -1,0 +1,29 @@
+<HTML>
+
+<HEAD>
+ <META HTTP-EQUIV="Content-Language" content="fr">
+ <META HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+ <TITLE>QCM avec boutons radio</TITLE>
+</HEAD>
+
+<BODY>
+<H1>QCM avec boutons radio</H1>
+<HR>
+<FORM NAME="qcm1">
+<B>Question :</B><BR>
+Quelle est la mesure des angles d'un triangle équilatéral ?<BR>
+<B>Réponses :</B>
+<INPUT TYPE=RADIO NAME="choix">30°
+<INPUT TYPE=RADIO NAME="choix">45°
+<INPUT TYPE=RADIO NAME="choix">60°
+<INPUT TYPE=RADIO NAME="choix">90°
+<BR><BR>
+<INPUT TYPE=BUTTON NAME="bouton" VALUE="Vérifier"
+ ONCLICK="if (document.qcm1.choix[2].checked) {alert('Bonne réponse.')} 
+          else {alert('Réponse fausse.')}">
+
+</FORM>
+<HR>
+<A HREF="qcmradio.txt" TARGET="_blank">Voir le fichier source</A>
+</BODY>
+</HTML>

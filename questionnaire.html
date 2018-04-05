@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+	    <meta charset="UTF-8">
+		<meta HTTP-EQUIV="Content-Language" content="fr">
+        <meta HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+		<link rel="stylesheet" href="questionnaire.css" />
+		<script type="text/javascript" src="java.js"></script>
+		<title>Questionnaire</title>
+	</head>
+	<body>
+		<div id="bloc_page">
+			<header>
+				<h1>Le Questionnaire</h1>
+			</header>
+			
+			<section>
+				<article>
+					<p>Vous avez achevé votre lecture, vous avez pu apprendre de nouvelles choses et vous souhaitez savoir si vous
+					avez tout retenu ? Ne vous en faites pas, nous avons préparé un questionnaire rien que pour vous !</br>
+					Alors n'attendez plus, vous avez 10 questions, il suffit de vous lancer !<p>
+				</article>
+				<h1>Question 1</h1>
+
+				<form method="post" action="rep.html" name="age1">
+					<p>
+						Parmis ces joueurs, lequel est un joueur légendaire de l'équipe d'Irlande ? (rugby à 15)<br />
+						<input type="radio" name="age" value="moins15" id="moins15" /> <label for="moins15">Wesley Fofana</label><br />
+						<input type="radio" name="age" value="medium15-25" id="medium15-25" /> <label for="medium15-25">Brian O'Driscoll</label><br />
+						<input type="radio" name="age" value="medium25-40" id="medium25-40" /> <label for="medium25-40">Cecil Afrika</label><br />
+						<input type="radio" name="age" value="plus40" id="plus40" /> <label for="plus40">Richard Hibbard</label>
+					</p>
+					<input TYPE=BUTTON name="age" value="Vérifier"
+						ONCLICK="if (document.age1.age[1].checked) {alert('Bonne réponse.')} 
+						else {alert('Réponse fausse.')}">
+				</form>
+				<form method="post" action="rep.html" name="all1">
+					<h1>Question 2</h1>
+					<p>
+						Quelle est la tradition des All Blacks lorsqu'ils remportent un tournoi de rugby à 7 ?<br />
+						<input type="radio" name="all" value="torse" id="torse" /> <label for="moins15">Chanter torse nu</label><br />
+						<input type="radio" name="all" value="haka" id="haka" /> <label for="medium15-25">Faire un haka torse nu</label><br />
+						<input type="radio" name="all" value="maill" id="maill" /> <label for="medium25-40">S'échanger les maillots avec les finalistes</label><br />
+						<input type="radio" name="all" value="arro" id="arro" /> <label for="plus40">Arroser l'entraîneur</label>
+					</p>
+					<input TYPE=BUTTON name="all" value="Vérifier"
+						ONCLICK="if (document.all1.all[1].checked) {alert('Bonne réponse.')} 
+						else {alert('Réponse fausse.')}">
+				</form>
+				<form method="post" action="rep.html" name="prof1">
+					<h1>Question 3</h1>
+					<p>
+						En quelle année le rugby est-il devenu professionnel ?<br />
+						<input type="radio" name="prof" value="moins15" id="moins15" /> <label for="moins15">1950</label><br />
+						<input type="radio" name="prof" value="medium15-25" id="medium15-25" /> <label for="medium15-25">1987</label><br />
+						<input type="radio" name="prof" value="medium25-40" id="medium25-40" /> <label for="medium25-40">1995</label><br />
+						<input type="radio" name="prof" value="plus40" id="plus40" /> <label for="plus40">2003</label>
+					</p>
+					<input TYPE=BUTTON name="prof" value="Vérifier"
+						ONCLICK="if (document.prof1.prof[2].checked) {alert('Bonne réponse.')} 
+						else {alert('Réponse fausse.')}">
+				</form>
+				<form method="post" action="rep.html" name="aus1">
+					<h1>Question 4</h1>
+					<p>
+						Quel est le duo fort de l'équipe d'Australie (rugby à 15) ?<br />
+						<input type="radio" name="aus" value="moins15" id="moins15" /> <label for="moins15">Leigh Halfpenny-Sam Warburton</label><br />
+						<input type="radio" name="aus" value="medium15-25" id="medium15-25" /> <label for="medium15-25">Israel Folau-Michael Hooper</label><br />
+						<input type="radio" name="aus" value="medium25-40" id="medium25-40" /> <label for="medium25-40">Ma'a Nonu-Julian Savea</label><br />
+						<input type="radio" name="aus" value="plus40" id="plus40" /> <label for="plus40">Quade Cooper-Nick Cummins</label>
+					</p>
+					<input TYPE=BUTTON name="aus" value="Vérifier"
+						ONCLICK="if (document.aus1.aus[3].checked) {alert('Bonne réponse.')} 
+						else {alert('Réponse fausse.')}">
+				</form>
+				<form method="post" action="rep.html" name="hn1">
+					<h1>Question 5</h1>
+					<p>
+						Quelle équipe est considérée comme la meilleur de l'hémisphère Nord (rugby à 7) ?<br />
+						<input type="radio" name="hn" value="ang" id="ang" /> <label for="moins15">L'Angleterre</label><br />
+						<input type="radio" name="hn" value="fra" id="fra" /> <label for="medium15-25">La France</label><br />
+						<input type="radio" name="hn" value="eco" id="eco" /> <label for="medium25-40">L'Ecosse</label><br />
+						<input type="radio" name="hn" value="irl" id="irl" /> <label for="plus40">L'Irlande</label>
+					</p>
+					<input TYPE=BUTTON name="hn" value="Vérifier"
+						ONCLICK="if (document.hn1.hn[0].checked) {alert('Bonne réponse.')} 
+						else {alert('Réponse fausse.')}">
+				</form>
+				<form method="post" action="rep.html" name="chlm1">
+					<h1>Question 6</h1>
+					<p>
+						En quelle année l'équipe de France (rugby à 15) a-t-elle réalisée son dernier grand chelem ?<br />
+						<input type="radio" name="chlm" value="2001" id="2001" /> <label for="moins15">2001</label><br />
+						<input type="radio" name="chlm" value="2004" id="2004" /> <label for="medium15-25">2004</label><br />
+						<input type="radio" name="chlm" value="2010" id="2010" /> <label for="medium25-40">2010</label><br />
+						<input type="radio" name="chlm" value="2013" id="2013" /> <label for="plus40">2013</label>
+					</p>
+					<input TYPE=BUTTON name="chlm" value="Vérifier"
+						ONCLICK="if (document.chlm1.chlm[2].checked) {alert('Bonne réponse.')} 
+						else {alert('Réponse fausse.')}">
+				</form>
+				<form method="post" action="rep.html" name="rap1">
+					<h1>Question 7</h1>
+					<p>
+						Qui est considéré comme le joueur de rugby le plus rapide au monde ?<br />
+						<input type="radio" name="rap" value="nonu" id="nonu" /> <label for="moins15">Ma'a Nonu</label><br />
+						<input type="radio" name="rap" value="nor" id="nor" /> <label for="medium15-25">Dan Norton</label><br />
+						<input type="radio" name="rap" value="hab" id="hab" /> <label for="medium25-40">Bryan Habana</label><br />
+						<input type="radio" name="rap" value="car" id="car" /> <label for="plus40">Carlin Isles</label>
+					</p>
+					<input TYPE=BUTTON name="rap" value="Vérifier"
+						ONCLICK="if (document.rap1.rap[3].checked) {alert('Bonne réponse.')} 
+						else {alert('Réponse fausse.')}">
+				</form>
+				<form method="post" action="rep.html" name="inv1">
+					<h1>Question 8</h1>
+					<p>
+						Qui est l'inventeur du Rugby ?<br />
+						<input type="radio" name="inv" value="moins15" id="moins15" /> <label for="moins15">Bernard Laporte</label><br />
+						<input type="radio" name="inv" value="medium15-25" id="medium15-25" /> <label for="medium15-25">William Webb Ellis</label><br />
+						<input type="radio" name="inv" value="medium25-40" id="medium25-40" /> <label for="medium25-40">Jean-Pierre Rives</label><br />
+						<input type="radio" name="inv" value="plus40" id="plus40" /> <label for="plus40">Jonah Lomu</label>
+					</p>
+					<input TYPE=BUTTON name="inv" value="Vérifier"
+						ONCLICK="if (document.inv1.inv[1].checked) {alert('Bonne réponse.')} 
+						else {alert('Réponse fausse.')}">
+				</form>
+				<form method="post" action="rep.html" name="fin1">
+					<h1>Question 9</h1>
+					<p>
+						Quelle est l'équipe à avoir perdu le plus de finale de Coupe du Monde ?<br />
+						<input type="radio" name="fin" value="it" id="it" /> <label for="moins15">Italie</label><br />
+						<input type="radio" name="fin" value="af" id="af" /> <label for="medium15-25">Afrique du Sud</label><br />
+						<input type="radio" name="fin" value="fr" id="fr" /> <label for="medium25-40">France</label><br />
+						<input type="radio" name="fin" value="nz" id="nz" /> <label for="plus40">Nouvelle Zélande</label>
+					</p>
+					<input TYPE=BUTTON name="fin" value="Vérifier"
+						ONCLICK="if (document.fin1.fin[2].checked) {alert('Bonne réponse.')} 
+						else {alert('Réponse fausse.')}">
+				</form>
+				<form method="post" action="rep.html" name="mel1">
+					<h1>Question 10</h1>
+					<p>
+						La "Melrose Cup" correspond à la coupe remportée lors :<br />
+						<input type="radio" name="mel" value="irb" id="irb" /> <label for="moins15">De l'IRB Sevens World Series</label><br />
+						<input type="radio" name="mel" value="tri" id="tri" /> <label for="medium15-25">Du Tri-Nations</label><br />
+						<input type="radio" name="mel" value="cdm7" id="cdm7" /> <label for="medium25-40">De la Coupe du Monde de Rugby à 7</label><br />
+						<input type="radio" name="mel" value="cdm15" id="cdm15" /> <label for="plus40">De la Coupe du Monde de Rugby à 15</label>
+					</p>
+					<input TYPE=BUTTON name="mel" value="Vérifier"
+						ONCLICK="if (document.mel1.mel[2].checked) {alert('Bonne réponse.')} 
+						else {alert('Réponse fausse.')}">
+				</form>
+					</br></br>
+					<a href="rep.html" id="rep">Voir le fichier source</a>
+				</form>
+
+			</section>
+			
+			
+		</div>
+	</body>
+</html>
